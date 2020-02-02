@@ -1,0 +1,79 @@
+.Toolbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: #026FD2;
+  height: 56px;
+}
+
+/* .Toolbar-logo {
+  margin-left: 1rem;
+} */
+
+.Toolbar-logo a {
+  color:  white;
+  text-decoration: none;
+  font-size: 1.5rem;
+} 
+
+.spacer {
+  flex: 1;
+}
+
+.Toolbar-navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.Toolbar-nav-items {
+  height: 100%
+}
+
+.Toolbar-nav-items ul {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;;
+}
+
+.Toolbar-nav-items li {
+  padding: 0 .5rem;
+}
+
+.Toolbar-nav-items a {
+  color:white;
+  text-decoration: none;
+}
+
+.Toolbar-nav-items a:hover {
+  color:  white;
+  text-decoration: none;
+}
+
+.Toolbar-nav-items a:active {
+  color:  white;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Toolbar-nav-items {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .Toolbar-logo {
+    margin-left: 1rem;
+  }
+}
